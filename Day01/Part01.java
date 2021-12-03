@@ -1,7 +1,7 @@
 import java.util.List;
 
 public class Part01 {
-    static int Solve(List<Integer> input) {
+    public static int Solve(List<Integer> input) {
         int counter = 0;
         
         for (int i = 1; i < input.size(); i++) {

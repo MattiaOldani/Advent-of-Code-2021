@@ -1,7 +1,7 @@
 import java.util.List;
 
 public class Part02 {
-    static int Solve(List<String> input) {
+    public static int Solve(List<String> input) {
         int depth = 0, forward = 0, aim = 0;
 
         for (String x : input) {
